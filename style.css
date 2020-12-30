@@ -1,0 +1,82 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+}
+.top{
+	padding: 40px;
+	background-image:linear-gradient(#e6e6e6,#8000ff)
+}
+.top i{
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+.top i a{
+	color: white;
+	font-size: 20px;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+.left a{
+	text-transform:capitalize;
+	color:Red;
+	padding-right: 20px;
+	font-family: serif;
+	font-size: 20px;
+}
+.left h1{
+	padding-left: 40px;
+}
+.left img{
+	width: 150px;
+}
+.object{
+	padding-top: 10px;
+	border-bottom: 20px solid gray;
+}
+.object p{
+	font-family: serif;
+	font-size: 20px;
+}
+.EDUCATION{
+	padding-top: 10px;
+}
+.sametop{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.same ul{
+      width: 100%;
+      padding:10px;
+}
+footer{
+	padding: 30px;
+	width: 100%;
+	background-image: url('css.svg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+ a{
+     
+	font-size: 30px;
+}
+.fo{
+display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.one{
+	padding: 10px;
+}
